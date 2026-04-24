@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="fixed z-100 navbar bg-base-100 shadow-sm">
+    <div className="fixed z-100 navbar glass shadow-none">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl gap-2">
           <svg
@@ -25,11 +25,11 @@ const Navbar = () => {
       </div>
       <div className="flex-none">
         <div className="space-x-2">
-          <Link to={"/login"} className="btn btn-accent">
+          <Link to={"/login"} className="btn btn-ghost">
             Login
           </Link>
-          <Link to={"/signup"} className="btn">
-            Sign up
+          <Link to={"/login"} className="btn btn-accent">
+            Signup
           </Link>
         </div>
       </div>
