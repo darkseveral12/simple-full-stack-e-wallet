@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <section className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold leading-tight">
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

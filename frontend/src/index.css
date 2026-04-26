@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@layer {
+@layer components {
   .form-responsive {
     @apply w-full sm:w-[80%] md:w-1/2 lg:w-1/3;
   }

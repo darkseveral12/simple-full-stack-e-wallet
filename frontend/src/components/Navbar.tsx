@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className="fixed z-100 navbar glass shadow-none">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl gap-2">
+        <a href="#" className="btn btn-ghost text-xl gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -26,13 +26,13 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <button>Features</button>
+            <a href="#feature-section">Features</a>
           </li>
           <li>
-            <button>Testimonials</button>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <button>FAQ</button>
+            <a href="#faq">FAQ</a>
           </li>
         </ul>
       </div>

@@ -17,7 +17,10 @@ const iconBase =
 
 const FeatureSection = () => {
   return (
-    <div className="w-full bg-base-100 flex  flex-col justify-center items-center ">
+    <section
+      id="feature-section"
+      className="w-full bg-base-100 flex  flex-col justify-center items-center scroll-mt-20"
+    >
       <div className="flex flex-col items-center justify-center gap-4 pb-8 pt-12 text-center">
         <span className="badge badge-soft badge-primary flex items-center gap-2">
           <RiSparkling2Line />
@@ -34,7 +37,7 @@ const FeatureSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-8 md:px-20 lg:px-30 pb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-8 md:px-20 lg:px-30 pb-24">
         <div className={`${cardBase} hover:border-primary group`}>
           <div className="card-body">
             <span className={`${iconBase} badge-primary`}>
@@ -113,7 +116,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

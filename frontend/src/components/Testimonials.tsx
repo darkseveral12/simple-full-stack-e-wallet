@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <div className="w-full bg-base-200 min-h-[80vh]">
+    <section id="testimonials" className="w-full bg-base-200 min-h-[80vh]">
       <div className="flex flex-col items-center justify-center gap-4 pb-8 pt-12 text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight max-w-2xl">
           Testimonials
@@ -12,7 +12,7 @@ const Testimonials = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 md:px-20 lg:px-30 pb-12 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 md:px-20 lg:px-30 pb-24 justify-items-center">
           {/* Card 1 */}
           <div className="card bg-base-100 ">
             <div className="card-body gap-4">
@@ -114,7 +114,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
