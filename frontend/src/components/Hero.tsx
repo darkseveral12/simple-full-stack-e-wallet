@@ -1,6 +1,23 @@
+import { motion } from "motion/react";
+
 const Hero = () => {
   return (
-    <section className="hero bg-base-200 min-h-screen">
+    <motion.section
+      variants={{
+        hidden: {
+          opacity: 0,
+        },
+        show: {
+          opacity: 1,
+          transition: {
+            staggerChildren: 0.25,
+          },
+        },
+      }}
+      initial="hidden"
+      animate="show"
+      className="hero bg-base-200 min-h-screen"
+    >
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold leading-tight">
@@ -36,7 +53,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
