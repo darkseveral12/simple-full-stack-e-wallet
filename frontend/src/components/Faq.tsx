@@ -10,7 +10,7 @@ const Faq = () => {
         </p>
       </div>
 
-      <div className=" md:px-20 lg:px-30 pb-24">
+      <div className="px-8 md:px-20 lg:px-30 pb-24">
         <div className="collapse collapse-arrow bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
